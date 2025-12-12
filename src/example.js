@@ -1,11 +1,10 @@
-// This file has linting errors
-const unusedVar = 'this is unused';
+// This file has fixed linting errors
 
 function myFunction() {
-  console.log("Using double quotes");
-  let x = 5
-  // Missing semicolon
-  return x
+  console.log('Using single quotes');
+  let x = 5;
+  // Added semicolon
+  return x;
 }
 
 myFunction();
